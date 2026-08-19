@@ -1,0 +1,206 @@
+{
+  "schema_version": "ipd-visual-market-analysis-v1",
+  "report_meta": {
+    "report_title": "Amazon 竞品视觉分析：text image",
+    "scope": "仅基于本次提供的 19 张图片进行分析。",
+    "analysis_status": "partial",
+    "limitations": [
+      "未提供可验证的品牌、SKU 或竞品分组信息。",
+      "不使用图片之外的商品、市场或评价信息。"
+    ]
+  },
+  "header_cards": {
+    "material_availability": "19 张可读图片，包含商品图与 7 张 A+ 横幅素材。",
+    "visible_product_category": "加绒连裤袜/打底裤",
+    "overall_summary": "页面通过高腰塑形、加绒保暖、弹性和显臀四类表达组织卖点，并提供尺码与穿搭场景素材。"
+  },
+  "competitor_visual_analysis": {
+    "competitors": [
+      {
+        "competitor_id": "competitor_unknown",
+        "analysis_basis": "未提供可验证的竞品身份；以下仅按图片中可见的同类页面表达汇总。",
+        "image_sequence": ["IMG_001", "IMG_002", "IMG_003", "IMG_004", "IMG_005", "IMG_006", "IMG_007", "IMG_008", "IMG_016", "IMG_017", "IMG_018", "IMG_019"],
+        "page_facts": [
+          {
+            "statement": "主图以白底模特正面全身或半身展示高腰、V 形腰头和透肤腿部效果。",
+            "classification": "observation",
+            "source_refs": ["image:IMG_001", "image:IMG_006", "image:IMG_008", "image:IMG_016"],
+            "evidence_image_ids": ["IMG_001", "IMG_006", "IMG_008", "IMG_016"],
+            "verification_status": "visible",
+            "confidence": "high"
+          },
+          {
+            "statement": "详情图出现 Butt Lifting、High Elasticity、Waist Compression Band、Warm Fleece Lined 等页面宣称，并配合局部放大图。",
+            "classification": "fact",
+            "source_refs": ["image:IMG_002"],
+            "evidence_image_ids": ["IMG_002"],
+            "verification_status": "visible_claim",
+            "confidence": "high"
+          },
+          {
+            "statement": "另有正反侧面、颜色并列和包装同框图片；其中一张包装可见 Women Thermal Leggings 字样。",
+            "classification": "observation",
+            "source_refs": ["image:IMG_003", "image:IMG_004", "image:IMG_005", "image:IMG_007"],
+            "evidence_image_ids": ["IMG_003", "IMG_004", "IMG_005", "IMG_007"],
+            "verification_status": "visible",
+            "confidence": "high"
+          },
+          {
+            "statement": "一张商品图写有 HIGH-WAISTED & V-SHAPED TUMMY CONTROL，配合腰部箭头。",
+            "classification": "fact",
+            "source_refs": ["image:IMG_018"],
+            "evidence_image_ids": ["IMG_018"],
+            "verification_status": "visible_claim",
+            "confidence": "high"
+          },
+          {
+            "statement": "一张商品图将内外层标为 Inner layer 与 Outer layer，并以热量示意图说明保暖。",
+            "classification": "fact",
+            "source_refs": ["image:IMG_019"],
+            "evidence_image_ids": ["IMG_019"],
+            "verification_status": "visible_claim",
+            "confidence": "high"
+          }
+        ],
+        "selling_point_ledger": [
+          {
+            "claim_id": "claim-001",
+            "feature": "高腰 V 形压缩腰头",
+            "advantage": "页面以腰腹箭头、拉伸动作和 V 形裁片展示包裹感。",
+            "benefit": "页面宣称提供腹部支撑、收腰和显臀效果。",
+            "classification": "fact",
+            "source_refs": ["image:IMG_002", "image:IMG_010", "image:IMG_013", "image:IMG_018"],
+            "evidence_image_ids": ["IMG_002", "IMG_010", "IMG_013", "IMG_018"],
+            "verification_status": "visible_claim",
+            "confidence": "high"
+          },
+          {
+            "claim_id": "claim-002",
+            "feature": "加绒内层与保暖结构",
+            "advantage": "页面展示绒面特写、内外层示意和温度范围。",
+            "benefit": "页面宣称在 -5°C 至 15°C 环境保暖，并降低热量流失。",
+            "classification": "fact",
+            "source_refs": ["image:IMG_002", "image:IMG_011", "image:IMG_019"],
+            "evidence_image_ids": ["IMG_002", "IMG_011", "IMG_019"],
+            "verification_status": "visible_claim",
+            "confidence": "high"
+          },
+          {
+            "claim_id": "claim-003",
+            "feature": "单线/提臀设计",
+            "advantage": "页面用背面照片、箭头和 OURS / OTHERS 对比聚焦臀部线条。",
+            "benefit": "页面宣称单线设计可提臀并塑造更饱满臀型。",
+            "classification": "fact",
+            "source_refs": ["image:IMG_002", "image:IMG_010", "image:IMG_012", "image:IMG_013"],
+            "evidence_image_ids": ["IMG_002", "IMG_010", "IMG_012", "IMG_013"],
+            "verification_status": "visible_claim",
+            "confidence": "high"
+          },
+          {
+            "claim_id": "claim-004",
+            "feature": "尺码与多场景穿搭",
+            "advantage": "A+ 素材给出 S 至 XL、US Size 和体重范围，并展示多套日常/冬季搭配。",
+            "benefit": "页面尝试回应尺码选择和使用场景。",
+            "classification": "observation",
+            "source_refs": ["image:IMG_014", "image:IMG_015", "image:IMG_017"],
+            "evidence_image_ids": ["IMG_014", "IMG_015", "IMG_017"],
+            "verification_status": "mixed",
+            "confidence": "medium"
+          }
+        ]
+      }
+    ]
+  },
+  "competitor_page_analysis": {
+    "strengths": [
+      {"finding": "商品图先展示产品轮廓，再补充腰头、内层和颜色信息，用户可快速识别高腰连裤袜的基本外观。", "source_refs": ["image:IMG_001", "image:IMG_002", "image:IMG_007"], "evidence_image_ids": ["IMG_001", "IMG_002", "IMG_007"]},
+      {"finding": "用局部放大、拉伸动作和背面视角把抽象卖点落在可见部位。", "source_refs": ["image:IMG_002", "image:IMG_010", "image:IMG_012"], "evidence_image_ids": ["IMG_002", "IMG_010", "IMG_012"]},
+      {"finding": "尺码表和穿搭场景分别回应尺码与搭配问题。", "source_refs": ["image:IMG_014", "image:IMG_015", "image:IMG_017"], "evidence_image_ids": ["IMG_014", "IMG_015", "IMG_017"]}
+    ],
+    "reusable_points": [
+      {"finding": "将腰头、内层和臀部线条拆成单一主题图，可降低单图信息负荷。", "source_refs": ["image:IMG_010", "image:IMG_011", "image:IMG_013"], "evidence_image_ids": ["IMG_010", "IMG_011", "IMG_013"]},
+      {"finding": "使用清晰表格呈现 US Size 与体重区间，便于购买前查找。", "source_refs": ["image:IMG_014", "image:IMG_017"], "evidence_image_ids": ["IMG_014", "IMG_017"]}
+    ],
+    "weaknesses": [
+      {"finding": "尺码表对 M 码体重范围存在 130-150 与 130-185 两种可见值，可能增加选择不确定性。", "source_refs": ["image:IMG_014", "image:IMG_017"], "evidence_image_ids": ["IMG_014", "IMG_017"], "verification_status": "mixed"},
+      {"finding": "保暖、塑形和提臀多为页面自述或示意图，未见可读的测试条件或量化佐证。", "source_refs": ["image:IMG_002", "image:IMG_011", "image:IMG_012", "image:IMG_019"], "evidence_image_ids": ["IMG_002", "IMG_011", "IMG_012", "IMG_019"]},
+      {"finding": "商品图混有不同腰头形态、颜色和包装表达，缺少可验证的分组信息时，产品对应关系不清晰。", "source_refs": ["image:IMG_001", "image:IMG_003", "image:IMG_005", "image:IMG_016"], "evidence_image_ids": ["IMG_001", "IMG_003", "IMG_005", "IMG_016"]}
+    ]
+  },
+  "a_plus_analysis": {
+    "strengths": [
+      {"finding": "A+ 以保暖、弹性、腰头、臀部、尺码和场景组成连续模块，主题覆盖较完整。", "source_refs": ["image:IMG_009", "image:IMG_010", "image:IMG_011", "image:IMG_012", "image:IMG_013", "image:IMG_014", "image:IMG_015"], "evidence_image_ids": ["IMG_009", "IMG_010", "IMG_011", "IMG_012", "IMG_013", "IMG_014", "IMG_015"]},
+      {"finding": "保暖模块同时包含绒面特写和层次示意，图文指向一致。", "source_refs": ["image:IMG_011"], "evidence_image_ids": ["IMG_011"]}
+    ],
+    "reusable_points": [
+      {"finding": "首张用四个图标压缩核心卖点，可作为 A+ 总览模块的组织方法。", "source_refs": ["image:IMG_009"], "evidence_image_ids": ["IMG_009"]},
+      {"finding": "使用实穿照片配合局部结构图和箭头，可将腰头功能与部位对应。", "source_refs": ["image:IMG_010", "image:IMG_013"], "evidence_image_ids": ["IMG_010", "IMG_013"]}
+    ],
+    "weaknesses": [
+      {"finding": "OURS / OTHERS 与 Before/After 对比缺少可见的同条件说明，比较依据无法从素材确认。", "source_refs": ["image:IMG_012", "image:IMG_013"], "evidence_image_ids": ["IMG_012", "IMG_013"]},
+      {"finding": "A+ 尺码表与商品图尺码表在 M 码体重范围上不一致。", "source_refs": ["image:IMG_014", "image:IMG_017"], "evidence_image_ids": ["IMG_014", "IMG_017"], "verification_status": "mixed"}
+    ]
+  },
+  "user_view_validation": {
+    "questions": [
+      {"id": "q_3s", "label": "3 秒理解", "question": "用户能否在 3 秒内理解产品是什么？", "result": "可大致识别为高腰、透肤外观的连裤袜/打底裤；加绒信息需阅读后续文字才能确认。", "status": "supported", "source_refs": ["image:IMG_001", "image:IMG_009"], "evidence_image_ids": ["IMG_001", "IMG_009"]},
+      {"id": "q_10s", "label": "10 秒找信息", "question": "用户能否在 10 秒内找到关键购买信息？", "result": "高腰、弹性、保暖与尺码均有对应图文，但尺码信息出现冲突。", "status": "mixed", "source_refs": ["image:IMG_002", "image:IMG_014", "image:IMG_017"], "evidence_image_ids": ["IMG_002", "IMG_014", "IMG_017"]},
+      {"id": "q_memory", "label": "记忆点", "question": "用户是否能形成差异化记忆？", "result": "V 形高腰和单线提臀是反复出现的视觉记忆点。", "status": "supported", "source_refs": ["image:IMG_010", "image:IMG_012", "image:IMG_013", "image:IMG_018"], "evidence_image_ids": ["IMG_010", "IMG_012", "IMG_013", "IMG_018"]},
+      {"id": "q_purchase", "label": "购买疑虑", "question": "页面是否回应主要购买疑虑？", "result": "页面回应了尺码、保暖、弹性和塑形；未见可读的测试条件，且 M 码尺码区间不一致。", "status": "mixed", "source_refs": ["image:IMG_011", "image:IMG_014", "image:IMG_017", "image:IMG_019"], "evidence_image_ids": ["IMG_011", "IMG_014", "IMG_017", "IMG_019"]}
+    ]
+  },
+  "opportunity_validation_plan": {
+    "items": [
+      {"opportunity": "统一尺码表达", "competitor_gap": "M 码体重范围在两张尺码图中不一致。", "demand_evidence": "尺码表是页面中直接用于购买选择的信息。", "recommended_expression": "使用一张经核验的尺码表，并在所有图片保持相同范围。", "validation_method": "发布前逐图核对尺码值；以尺码咨询和退换原因验证。", "risk": "现有图片无法确认哪一个范围正确。", "priority": "high", "source_refs": ["image:IMG_014", "image:IMG_017"], "evidence_image_ids": ["IMG_014", "IMG_017"]},
+      {"opportunity": "增强保暖与塑形的证据表达", "competitor_gap": "现有表达主要为结构示意、箭头和自述。", "demand_evidence": "保暖与腰腹/臀部塑形被重复置于核心模块。", "recommended_expression": "在主张旁增加可复核的测试条件、测量方式或对照边界。", "validation_method": "测试用户对主张可信度的理解，并核验素材与实际测试记录一致。", "risk": "未提供测试素材，不能预设具体性能结论。", "priority": "high", "source_refs": ["image:IMG_002", "image:IMG_011", "image:IMG_012", "image:IMG_013", "image:IMG_019"], "evidence_image_ids": ["IMG_002", "IMG_011", "IMG_012", "IMG_013", "IMG_019"]},
+      {"opportunity": "明确不同外观/款式的归属", "competitor_gap": "输入含不同腰头、颜色与包装形态，未见分组标识。", "demand_evidence": "多张主图并列出现不同产品外观。", "recommended_expression": "每一组商品图增加一致的款式、颜色或版本标识。", "validation_method": "在页面审查中检查每张图与变体选择的对应关系。", "risk": "输入未提供变体信息。", "priority": "medium", "source_refs": ["image:IMG_001", "image:IMG_003", "image:IMG_005", "image:IMG_007"], "evidence_image_ids": ["IMG_001", "IMG_003", "IMG_005", "IMG_007"]}
+    ]
+  },
+  "feature_visualization_list": {
+    "items": [
+      {"feature": "高腰压缩腰头", "current_expression": "V 形腰头、拉伸动作与腰腹箭头。", "evidence_strength": "页面自述与可见结构图", "evaluation": "部位清晰，缺少可复核的压缩程度依据。", "stronger_visual_suggestion": "补充统一角度的腰头尺寸/拉伸前后量测表达。", "priority": "high", "source_refs": ["image:IMG_002", "image:IMG_010", "image:IMG_013", "image:IMG_018"], "evidence_image_ids": ["IMG_002", "IMG_010", "IMG_013", "IMG_018"]},
+      {"feature": "加绒保暖", "current_expression": "绒面特写、热量图与内外层示意。", "evidence_strength": "页面自述与结构示意", "evaluation": "材质外观可见，但温度适用和热量效果未见测试边界。", "stronger_visual_suggestion": "补充测试条件、穿着层级或同条件对照。", "priority": "high", "source_refs": ["image:IMG_002", "image:IMG_011", "image:IMG_019"], "evidence_image_ids": ["IMG_002", "IMG_011", "IMG_019"]},
+      {"feature": "单线提臀", "current_expression": "背面图、箭头及 Ours/Others 对比。", "evidence_strength": "页面自述与视觉对比", "evaluation": "意图明确，但对比样本与条件不清。", "stronger_visual_suggestion": "标注相同人物、姿态、光线和未修饰条件下的对照方式。", "priority": "medium", "source_refs": ["image:IMG_002", "image:IMG_012", "image:IMG_013"], "evidence_image_ids": ["IMG_002", "IMG_012", "IMG_013"]}
+    ]
+  },
+  "purchase_barrier_solution": {
+    "items": [
+      {"user_concern": "尺码是否适合", "current_page_answer": "提供 S-XL、US Size 和体重范围。", "current_material_problem": "M 码体重范围存在两种可见值。", "proposed_image_solution": "保留唯一的经核验尺码图，并以相同版式用于商品图和 A+。", "launch_validation": "上线前跨图比对，跟踪尺码相关咨询与退换原因。", "priority": "high", "source_refs": ["image:IMG_014", "image:IMG_017"], "evidence_image_ids": ["IMG_014", "IMG_017"]},
+      {"user_concern": "保暖是否可信", "current_page_answer": "展示绒面、内外层及 -5°C-15°C 页面表述。", "current_material_problem": "没有可见的测试条件或测量方法。", "proposed_image_solution": "在结构图旁呈现可核验的测试条件与适用边界。", "launch_validation": "检查受访者是否能复述测试边界，不以页面自述替代验证。", "priority": "high", "source_refs": ["image:IMG_011", "image:IMG_019"], "evidence_image_ids": ["IMG_011", "IMG_019"]},
+      {"user_concern": "塑形效果是否适合自己", "current_page_answer": "展示高腰、V 形和单线提臀，并使用 Before/After 与 Ours/Others 图。", "current_material_problem": "对比条件不可见。", "proposed_image_solution": "以多体型、同角度和明确拍摄条件展示结构影响。", "launch_validation": "在合规审查后测试用户对对比公平性和可信度的理解。", "priority": "medium", "source_refs": ["image:IMG_012", "image:IMG_013", "image:IMG_018"], "evidence_image_ids": ["IMG_012", "IMG_013", "IMG_018"]}
+    ]
+  },
+  "image_assets": [
+    {"image_id":"IMG_001","file_name":"10001.jpg","source_path":"C:/Users/Administrator/Desktop/text/市场分析/测试/text image/10001.jpg","image_type":"product_image","competitor_id":"competitor_unknown","original_order":1,"tags":["main-image","front-view","high-waist"]},
+    {"image_id":"IMG_002","file_name":"10002.jpg","source_path":"C:/Users/Administrator/Desktop/text/市场分析/测试/text image/10002.jpg","image_type":"product_image","competitor_id":"competitor_unknown","original_order":2,"tags":["feature-infographic","fleece","elasticity"]},
+    {"image_id":"IMG_003","file_name":"10003.jpg","source_path":"C:/Users/Administrator/Desktop/text/市场分析/测试/text image/10003.jpg","image_type":"product_image","competitor_id":"competitor_unknown","original_order":3,"tags":["color-options","side-view"]},
+    {"image_id":"IMG_004","file_name":"10004.jpg","source_path":"C:/Users/Administrator/Desktop/text/市场分析/测试/text image/10004.jpg","image_type":"product_image","competitor_id":"competitor_unknown","original_order":4,"tags":["back-view"]},
+    {"image_id":"IMG_005","file_name":"10005.jpg","source_path":"C:/Users/Administrator/Desktop/text/市场分析/测试/text image/10005.jpg","image_type":"product_image","competitor_id":"competitor_unknown","original_order":5,"tags":["package","back-view"]},
+    {"image_id":"IMG_006","file_name":"10006.jpg","source_path":"C:/Users/Administrator/Desktop/text/市场分析/测试/text image/10006.jpg","image_type":"product_image","competitor_id":"competitor_unknown","original_order":6,"tags":["front-view","high-waist"]},
+    {"image_id":"IMG_007","file_name":"10007.jpg","source_path":"C:/Users/Administrator/Desktop/text/市场分析/测试/text image/10007.jpg","image_type":"product_image","competitor_id":"competitor_unknown","original_order":7,"tags":["color-options","back-view"]},
+    {"image_id":"IMG_008","file_name":"10008.jpg","source_path":"C:/Users/Administrator/Desktop/text/市场分析/测试/text image/10008.jpg","image_type":"product_image","competitor_id":"competitor_unknown","original_order":8,"tags":["front-view","high-waist"]},
+    {"image_id":"IMG_009","file_name":"10009.jpg","source_path":"C:/Users/Administrator/Desktop/text/市场分析/测试/text image/10009.jpg","image_type":"a_plus_image","competitor_id":"competitor_unknown","original_order":9,"tags":["a-plus","hero","benefit-summary"]},
+    {"image_id":"IMG_010","file_name":"10010.jpg","source_path":"C:/Users/Administrator/Desktop/text/市场分析/测试/text image/10010.jpg","image_type":"a_plus_image","competitor_id":"competitor_unknown","original_order":10,"tags":["a-plus","waistband","stretch"]},
+    {"image_id":"IMG_011","file_name":"10011.jpg","source_path":"C:/Users/Administrator/Desktop/text/市场分析/测试/text image/10011.jpg","image_type":"a_plus_image","competitor_id":"competitor_unknown","original_order":11,"tags":["a-plus","thermal-layer","fleece"]},
+    {"image_id":"IMG_012","file_name":"10012.jpg","source_path":"C:/Users/Administrator/Desktop/text/市场分析/测试/text image/10012.jpg","image_type":"a_plus_image","competitor_id":"competitor_unknown","original_order":12,"tags":["a-plus","comparison","butt-lift"]},
+    {"image_id":"IMG_013","file_name":"10013.jpg","source_path":"C:/Users/Administrator/Desktop/text/市场分析/测试/text image/10013.jpg","image_type":"a_plus_image","competitor_id":"competitor_unknown","original_order":13,"tags":["a-plus","high-waist","comparison"]},
+    {"image_id":"IMG_014","file_name":"10014.jpg","source_path":"C:/Users/Administrator/Desktop/text/市场分析/测试/text image/10014.jpg","image_type":"a_plus_image","competitor_id":"competitor_unknown","original_order":14,"tags":["a-plus","size-chart","outfit"]},
+    {"image_id":"IMG_015","file_name":"10015.jpg","source_path":"C:/Users/Administrator/Desktop/text/市场分析/测试/text image/10015.jpg","image_type":"a_plus_image","competitor_id":"competitor_unknown","original_order":15,"tags":["a-plus","occasions","outfit"]},
+    {"image_id":"IMG_016","file_name":"10016.jpg","source_path":"C:/Users/Administrator/Desktop/text/市场分析/测试/text image/10016.jpg","image_type":"product_image","competitor_id":"competitor_unknown","original_order":16,"tags":["main-image","front-view","high-waist"]},
+    {"image_id":"IMG_017","file_name":"10017.jpg","source_path":"C:/Users/Administrator/Desktop/text/市场分析/测试/text image/10017.jpg","image_type":"product_image","competitor_id":"competitor_unknown","original_order":17,"tags":["size-chart"]},
+    {"image_id":"IMG_018","file_name":"10018.jpg","source_path":"C:/Users/Administrator/Desktop/text/市场分析/测试/text image/10018.jpg","image_type":"product_image","competitor_id":"competitor_unknown","original_order":18,"tags":["feature-infographic","tummy-control"]},
+    {"image_id":"IMG_019","file_name":"10019.jpg","source_path":"C:/Users/Administrator/Desktop/text/市场分析/测试/text image/10019.jpg","image_type":"product_image","competitor_id":"competitor_unknown","original_order":19,"tags":["thermal-layer","heat-diagram"]}
+  ],
+  "input_assessment": {
+    "access": "partial",
+    "reasons": ["所有输入图片均可读取。", "未提供可验证的竞品分组、品牌或 SKU，因此仅使用 competitor_unknown。", "发现两张尺码图片对 M 码体重范围的可见表达不一致。"],
+    "missing_asset_layers": [],
+    "competitor_grouping": "unknown"
+  },
+  "run_state": {"input_images":["IMG_001","IMG_002","IMG_003","IMG_004","IMG_005","IMG_006","IMG_007","IMG_008","IMG_009","IMG_010","IMG_011","IMG_012","IMG_013","IMG_014","IMG_015","IMG_016","IMG_017","IMG_018","IMG_019"],"scoring_status":"partial"},
+  "analysis_details": {"scoring":{"basic_page":{"score":3.5,"weight":0.1,"valid_item_count":3,"limitations":["可见的尺码信息存在冲突"]},"image_set":{"score":3.0,"weight":0.3,"valid_item_count":6,"limitations":["核心 USP 主要为页面自述，相关表现不超过 3 分"]},"a_plus":{"score":3.0,"weight":0.3,"valid_item_count":6,"limitations":["比较与性能表达未见可读测试条件","核心 USP 主要为页面自述，相关表现不超过 3 分","尺码信息冲突"]},"brand":{"score":null,"weight":0.15,"valid_item_count":0,"limitations":["未见可验证的一致品牌识别或品牌故事"]},"user_decision":{"score":3.0,"weight":0.15,"valid_item_count":4,"limitations":["尺码冲突","性能主张以页面自述为主"]},"overall_score":3.06,"calculation":"仅对有页面证据的维度按权重归一计算；品牌维度 N/A。"}},
+  "warnings": [
+    {"code":"COMPETITOR_GROUPING_UNKNOWN","message":"未提供可验证的竞品身份或分组，未推测品牌、SKU、ASIN 或店铺。"},
+    {"code":"VISIBLE_DATA_CONFLICT","message":"IMG_014 显示 M 码体重为 130-150 lb，IMG_017 显示为 130-185 lb。","image_ids":["IMG_014","IMG_017"]}
+  ]
+}
